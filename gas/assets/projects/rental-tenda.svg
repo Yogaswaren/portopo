@@ -1,0 +1,291 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0d19"/>
+      <stop offset="50%" stop-color="#121629"/>
+      <stop offset="100%" stop-color="#0d1021"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c5ce7"/>
+      <stop offset="100%" stop-color="#74b9ff"/>
+    </linearGradient>
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6c5ce7"/>
+      <stop offset="100%" stop-color="#a29bfe"/>
+    </linearGradient>
+    <linearGradient id="cardSurface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#191e36"/>
+      <stop offset="100%" stop-color="#13172b"/>
+    </linearGradient>
+    <linearGradient id="tentSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e2952"/>
+      <stop offset="100%" stop-color="#2e4374"/>
+    </linearGradient>
+    <radialGradient id="glowLeft" cx="25%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#6c5ce7" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#6c5ce7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="80%" cy="70%" r="45%">
+      <stop offset="0%" stop-color="#74b9ff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#74b9ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="phoneShadow" x="-15%" y="-10%" width="130%" height="125%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="800" fill="url(#bgGrad)"/>
+  <rect width="1280" height="800" fill="url(#glowLeft)"/>
+  <rect width="1280" height="800" fill="url(#glowRight)"/>
+
+  <!-- Top Header Banner -->
+  <g transform="translate(640, 52)" text-anchor="middle" font-family="'Outfit', 'Inter', sans-serif">
+    <text y="0" fill="#a29bfe" font-size="13" font-weight="700" letter-spacing="3">MOBILE-FIRST WEB APPLICATION · NEXT.JS &amp; TAILWIND CSS</text>
+    <text y="28" fill="#f0f0f5" font-size="24" font-weight="800">Sistem Rental Tenda &amp; Perlengkapan Outdoor</text>
+  </g>
+
+  <!-- ==================== PHONE 1: SIGN IN FLOW ==================== -->
+  <g transform="translate(75, 115)" filter="url(#phoneShadow)" font-family="'Inter', sans-serif">
+    <!-- Phone Frame -->
+    <rect x="0" y="0" width="330" height="620" rx="34" fill="#14182c" stroke="#2d3558" stroke-width="2.5"/>
+    <rect x="12" y="12" width="306" height="596" rx="26" fill="#0f1324"/>
+    <!-- Status bar & Notch -->
+    <rect x="115" y="20" width="100" height="18" rx="9" fill="#181d35"/>
+    <text x="32" y="34" fill="#8b92b2" font-size="11" font-weight="600">09:41</text>
+    <circle cx="282" cy="29" r="4" fill="#00b894"/>
+
+    <!-- App Logo -->
+    <g transform="translate(165, 92)" text-anchor="middle">
+      <rect x="-34" y="-34" width="68" height="68" rx="18" fill="url(#accentGrad)" opacity="0.18"/>
+      <polygon points="0,-20 -22,18 22,18" fill="none" stroke="#a29bfe" stroke-width="3.2" stroke-linejoin="round"/>
+      <polygon points="0,-4 -10,18 10,18" fill="#6c5ce7"/>
+      <text y="56" fill="#ffffff" font-size="20" font-weight="800">TentRent<tspan fill="#a29bfe">.id</tspan></text>
+      <text y="78" fill="#8b92b2" font-size="12">Masuk untuk menyewa alat camping</text>
+    </g>
+
+    <!-- Form Fields -->
+    <g transform="translate(32, 200)">
+      <text x="0" y="0" fill="#b8bfe0" font-size="11.5" font-weight="600">Email atau No. WhatsApp</text>
+      <rect x="0" y="10" width="266" height="44" rx="10" fill="#171c33" stroke="#2c3457" stroke-width="1.5"/>
+      <text x="16" y="37" fill="#eef0ff" font-size="12.5">yogas.waren@outdoor.id</text>
+
+      <text x="0" y="80" fill="#b8bfe0" font-size="11.5" font-weight="600">Kata Sandi</text>
+      <rect x="0" y="90" width="266" height="44" rx="10" fill="#171c33" stroke="#6c5ce7" stroke-width="1.5"/>
+      <text x="16" y="117" fill="#a29bfe" font-size="15" letter-spacing="3">••••••••••</text>
+
+      <text x="266" y="156" text-anchor="end" fill="#a29bfe" font-size="11" font-weight="600">Lupa Kata Sandi?</text>
+
+      <!-- Sign In CTA -->
+      <rect x="0" y="175" width="266" height="48" rx="12" fill="url(#btnGrad)"/>
+      <text x="133" y="204" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700" letter-spacing="0.5">MASUK SEKARANG</text>
+
+      <!-- Divider -->
+      <line x1="0" y1="252" x2="95" y2="252" stroke="#252c4a"/>
+      <text x="133" y="256" text-anchor="middle" fill="#6b7399" font-size="11">atau masuk dengan</text>
+      <line x1="171" y1="252" x2="266" y2="252" stroke="#252c4a"/>
+
+      <!-- Quick Auth -->
+      <rect x="0" y="274" width="126" height="40" rx="10" fill="#171c33" stroke="#262e4d"/>
+      <text x="63" y="299" text-anchor="middle" fill="#d0d6f2" font-size="12" font-weight="600">Google</text>
+      <rect x="140" y="274" width="126" height="40" rx="10" fill="#171c33" stroke="#262e4d"/>
+      <text x="203" y="299" text-anchor="middle" fill="#d0d6f2" font-size="12" font-weight="600">WhatsApp OTP</text>
+
+      <text x="133" y="352" text-anchor="middle" fill="#8b92b2" font-size="11.5">Belum punya akun? <tspan fill="#a29bfe" font-weight="700">Daftar Gratis</tspan></text>
+    </g>
+  </g>
+
+  <!-- ==================== PHONE 2: CATALOG EXPLORER (CENTER) ==================== -->
+  <g transform="translate(465, 98)" filter="url(#phoneShadow)" font-family="'Inter', sans-serif">
+    <!-- Highlighted Phone Frame -->
+    <rect x="0" y="0" width="350" height="650" rx="36" fill="#171c34" stroke="#6c5ce7" stroke-width="2.5"/>
+    <rect x="12" y="12" width="326" height="626" rx="28" fill="#0f1324"/>
+    <rect x="125" y="20" width="100" height="18" rx="9" fill="#181d35"/>
+
+    <!-- Top App Bar -->
+    <text x="30" y="64" fill="#8b92b2" font-size="11">Lokasi Sewa</text>
+    <text x="30" y="82" fill="#ffffff" font-size="14" font-weight="700">Medan, Sumatera Utara ▾</text>
+    <circle cx="304" cy="70" r="16" fill="#1b213d" stroke="#2e3760"/>
+    <circle cx="314" cy="58" r="5" fill="#00b894"/>
+
+    <!-- Search Bar -->
+    <rect x="28" y="98" width="294" height="40" rx="10" fill="#171c33" stroke="#293154"/>
+    <text x="46" y="123" fill="#7c84a8" font-size="12">🔍  Cari tenda dome, carrier, matras...</text>
+
+    <!-- Category Pills -->
+    <g transform="translate(28, 150)">
+      <rect x="0" y="0" width="68" height="28" rx="14" fill="url(#btnGrad)"/>
+      <text x="34" y="18" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="700">Semua</text>
+
+      <rect x="76" y="0" width="68" height="28" rx="14" fill="#171c33" stroke="#2a3256"/>
+      <text x="110" y="18" text-anchor="middle" fill="#a5add0" font-size="11" font-weight="600">Tenda</text>
+
+      <rect x="152" y="0" width="72" height="28" rx="14" fill="#171c33" stroke="#2a3256"/>
+      <text x="188" y="18" text-anchor="middle" fill="#a5add0" font-size="11" font-weight="600">Carrier</text>
+
+      <rect x="232" y="0" width="62" height="28" rx="14" fill="#171c33" stroke="#2a3256"/>
+      <text x="263" y="18" text-anchor="middle" fill="#a5add0" font-size="11" font-weight="600">Masak</text>
+    </g>
+
+    <!-- Product Grid Row 1 -->
+    <!-- Card 1 -->
+    <g transform="translate(28, 194)">
+      <rect x="0" y="0" width="140" height="178" rx="14" fill="url(#cardSurface)" stroke="#283054"/>
+      <rect x="8" y="8" width="124" height="82" rx="10" fill="url(#tentSky)"/>
+      <!-- Tent illustration -->
+      <polygon points="70,24 28,78 112,78" fill="#6c5ce7"/>
+      <polygon points="70,24 70,78 112,78" fill="#a29bfe"/>
+      <polygon points="70,42 52,78 88,78" fill="#14182c"/>
+      <rect x="92" y="14" width="34" height="18" rx="6" fill="#0f1324" opacity="0.8"/>
+      <text x="109" y="26" text-anchor="middle" fill="#fdcb6e" font-size="9.5" font-weight="700">★ 4.9</text>
+
+      <text x="10" y="108" fill="#ffffff" font-size="12" font-weight="700">Tenda Dome Eiger 4P</text>
+      <text x="10" y="124" fill="#8b92b2" font-size="10">Kapasitas 4 Orang · Double Layer</text>
+      <text x="10" y="146" fill="#a29bfe" font-size="12.5" font-weight="800">Rp 65.000<tspan fill="#7c84a8" font-size="9.5" font-weight="500">/hari</tspan></text>
+      <rect x="10" y="153" width="120" height="18" rx="5" fill="#6c5ce7" opacity="0.22"/>
+      <text x="70" y="165" text-anchor="middle" fill="#c4bfff" font-size="9.5" font-weight="700">Tersedia · 5 Unit</text>
+    </g>
+
+    <!-- Card 2 -->
+    <g transform="translate(182, 194)">
+      <rect x="0" y="0" width="140" height="178" rx="14" fill="url(#cardSurface)" stroke="#283054"/>
+      <rect x="8" y="8" width="124" height="82" rx="10" fill="#1d2846"/>
+      <!-- Backpack illustration -->
+      <rect x="48" y="22" width="44" height="54" rx="12" fill="#00b894"/>
+      <rect x="55" y="34" width="30" height="26" rx="6" fill="#0984e3"/>
+      <rect x="92" y="14" width="34" height="18" rx="6" fill="#0f1324" opacity="0.8"/>
+      <text x="109" y="26" text-anchor="middle" fill="#fdcb6e" font-size="9.5" font-weight="700">★ 4.8</text>
+
+      <text x="10" y="108" fill="#ffffff" font-size="12" font-weight="700">Carrier Osprey 60L</text>
+      <text x="10" y="124" fill="#8b92b2" font-size="10">Include Raincover · Ergonomis</text>
+      <text x="10" y="146" fill="#a29bfe" font-size="12.5" font-weight="800">Rp 45.000<tspan fill="#7c84a8" font-size="9.5" font-weight="500">/hari</tspan></text>
+      <rect x="10" y="153" width="120" height="18" rx="5" fill="#00b894" opacity="0.2"/>
+      <text x="70" y="165" text-anchor="middle" fill="#55efc4" font-size="9.5" font-weight="700">Tersedia · 8 Unit</text>
+    </g>
+
+    <!-- Product Grid Row 2 -->
+    <!-- Card 3 -->
+    <g transform="translate(28, 386)">
+      <rect x="0" y="0" width="140" height="170" rx="14" fill="url(#cardSurface)" stroke="#283054"/>
+      <rect x="8" y="8" width="124" height="74" rx="10" fill="#1d2540"/>
+      <rect x="36" y="28" width="68" height="34" rx="16" fill="#e17055"/>
+      <text x="10" y="102" fill="#ffffff" font-size="12" font-weight="700">Sleeping Bag Polar</text>
+      <text x="10" y="118" fill="#8b92b2" font-size="10">Tahan Suhu Dingin 5°C</text>
+      <text x="10" y="140" fill="#a29bfe" font-size="12.5" font-weight="800">Rp 20.000<tspan fill="#7c84a8" font-size="9.5" font-weight="500">/hari</tspan></text>
+      <rect x="10" y="146" width="120" height="18" rx="5" fill="#6c5ce7" opacity="0.22"/>
+      <text x="70" y="158" text-anchor="middle" fill="#c4bfff" font-size="9.5" font-weight="700">Pilih Alat</text>
+    </g>
+
+    <!-- Card 4 -->
+    <g transform="translate(182, 386)">
+      <rect x="0" y="0" width="140" height="170" rx="14" fill="url(#cardSurface)" stroke="#283054"/>
+      <rect x="8" y="8" width="124" height="74" rx="10" fill="#1d2540"/>
+      <circle cx="70" cy="45" r="22" fill="#fdcb6e" opacity="0.85"/>
+      <text x="10" y="102" fill="#ffffff" font-size="12" font-weight="700">Paket Hemat Grup</text>
+      <text x="10" y="118" fill="#8b92b2" font-size="10">2 Tenda + 4 Matras + Kompor</text>
+      <text x="10" y="140" fill="#a29bfe" font-size="12.5" font-weight="800">Rp 150.000<tspan fill="#7c84a8" font-size="9.5" font-weight="500">/hari</tspan></text>
+      <rect x="10" y="146" width="120" height="18" rx="5" fill="#6c5ce7" opacity="0.22"/>
+      <text x="70" y="158" text-anchor="middle" fill="#c4bfff" font-size="9.5" font-weight="700">Pilih Paket</text>
+    </g>
+
+    <!-- Bottom Navigation -->
+    <rect x="20" y="572" width="310" height="52" rx="18" fill="#161b33" stroke="#283154"/>
+    <text x="64" y="603" text-anchor="middle" fill="#a29bfe" font-size="11" font-weight="700">Beranda</text>
+    <text x="142" y="603" text-anchor="middle" fill="#7c84a8" font-size="11">Katalog</text>
+    <text x="216" y="603" text-anchor="middle" fill="#7c84a8" font-size="11">Booking</text>
+    <text x="286" y="603" text-anchor="middle" fill="#7c84a8" font-size="11">Profil</text>
+  </g>
+
+  <!-- ==================== PHONE 3: BOOKING & SCHEDULE ==================== -->
+  <g transform="translate(875, 115)" filter="url(#phoneShadow)" font-family="'Inter', sans-serif">
+    <rect x="0" y="0" width="330" height="620" rx="34" fill="#14182c" stroke="#2d3558" stroke-width="2.5"/>
+    <rect x="12" y="12" width="306" height="596" rx="26" fill="#0f1324"/>
+    <rect x="115" y="20" width="100" height="18" rx="9" fill="#181d35"/>
+
+    <!-- Header -->
+    <text x="32" y="66" fill="#ffffff" font-size="15" font-weight="700">←  Detail &amp; Jadwal Sewa</text>
+
+    <!-- Selected Item Summary -->
+    <g transform="translate(28, 84)">
+      <rect x="0" y="0" width="274" height="72" rx="14" fill="#171c33" stroke="#2c3457"/>
+      <rect x="10" y="10" width="52" height="52" rx="10" fill="url(#tentSky)"/>
+      <polygon points="36,20 18,52 54,52" fill="#a29bfe"/>
+      <text x="74" y="28" fill="#ffffff" font-size="13" font-weight="700">Tenda Dome Eiger 4P</text>
+      <text x="74" y="45" fill="#00b894" font-size="11" font-weight="600">● Stok Tersedia</text>
+      <text x="74" y="61" fill="#a29bfe" font-size="12" font-weight="700">Rp 65.000 / hari</text>
+    </g>
+
+    <!-- Calendar Widget -->
+    <g transform="translate(28, 172)">
+      <rect x="0" y="0" width="274" height="196" rx="14" fill="#171c33" stroke="#2c3457"/>
+      <text x="16" y="28" fill="#ffffff" font-size="12.5" font-weight="700">Pilih Tanggal Sewa</text>
+      <text x="258" y="28" text-anchor="end" fill="#a29bfe" font-size="11.5" font-weight="600">Mei 2025</text>
+
+      <!-- Calendar Days Header -->
+      <g transform="translate(24, 52)" fill="#7c84a8" font-size="10" font-weight="600" text-anchor="middle">
+        <text x="0">Min</text>
+        <text x="38">Sen</text>
+        <text x="76">Sel</text>
+        <text x="114">Rab</text>
+        <text x="152">Kam</text>
+        <text x="190">Jum</text>
+        <text x="226">Sab</text>
+      </g>
+
+      <!-- Highlighted Date Range Pill -->
+      <rect x="86" y="96" width="136" height="28" rx="14" fill="#6c5ce7" opacity="0.3"/>
+      <circle cx="100" cy="110" r="14" fill="#6c5ce7"/>
+      <circle cx="214" cy="110" r="14" fill="#6c5ce7"/>
+
+      <!-- Dates -->
+      <g transform="translate(24, 80)" fill="#d0d6f2" font-size="11" font-weight="600" text-anchor="middle">
+        <text x="0" fill="#525a7a">27</text>
+        <text x="38" fill="#525a7a">28</text>
+        <text x="76">1</text>
+        <text x="114">2</text>
+        <text x="152">3</text>
+        <text x="190">4</text>
+        <text x="226">5</text>
+
+        <text x="0" y="34">6</text>
+        <text x="38" y="34">7</text>
+        <text x="76" y="34" fill="#ffffff" font-weight="800">8</text>
+        <text x="114" y="34" fill="#ffffff">9</text>
+        <text x="152" y="34" fill="#ffffff">10</text>
+        <text x="190" y="34" fill="#ffffff" font-weight="800">11</text>
+        <text x="226" y="34">12</text>
+
+        <text x="0" y="68">13</text>
+        <text x="38" y="68">14</text>
+        <text x="76" y="68">15</text>
+        <text x="114" y="68">16</text>
+        <text x="152" y="68">17</text>
+        <text x="190" y="68">18</text>
+        <text x="226" y="68">19</text>
+      </g>
+    </g>
+
+    <!-- Price Breakdown -->
+    <g transform="translate(28, 386)">
+      <rect x="0" y="0" width="274" height="122" rx="14" fill="#171c33" stroke="#2c3457"/>
+      <text x="16" y="28" fill="#8b92b2" font-size="11.5">Durasi Sewa (8–11 Mei)</text>
+      <text x="258" y="28" text-anchor="end" fill="#ffffff" font-size="11.5" font-weight="700">3 Hari</text>
+
+      <text x="16" y="54" fill="#8b92b2" font-size="11.5">Harga Sewa (3 × Rp 65.000)</text>
+      <text x="258" y="54" text-anchor="end" fill="#ffffff" font-size="11.5" font-weight="600">Rp 195.000</text>
+
+      <text x="16" y="78" fill="#8b92b2" font-size="11.5">Layanan Antar-Jemput</text>
+      <text x="258" y="78" text-anchor="end" fill="#00b894" font-size="11.5" font-weight="700">GRATIS</text>
+
+      <line x1="16" y1="90" x2="258" y2="90" stroke="#2a3256"/>
+      <text x="16" y="110" fill="#ffffff" font-size="13" font-weight="700">Total Pembayaran</text>
+      <text x="258" y="110" text-anchor="end" fill="#a29bfe" font-size="14" font-weight="800">Rp 195.000</text>
+    </g>
+
+    <!-- Booking Button -->
+    <g transform="translate(28, 526)">
+      <rect x="0" y="0" width="274" height="50" rx="12" fill="url(#btnGrad)"/>
+      <text x="137" y="30" text-anchor="middle" fill="#ffffff" font-size="13.5" font-weight="800" letter-spacing="0.6">SEWA SEKARANG →</text>
+    </g>
+  </g>
+</svg>
