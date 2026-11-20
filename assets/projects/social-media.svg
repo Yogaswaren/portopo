@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800">
+  <defs>
+    <linearGradient id="bgSocial" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#190836"/>
+      <stop offset="50%" stop-color="#2e0f66"/>
+      <stop offset="100%" stop-color="#110524"/>
+    </linearGradient>
+    <linearGradient id="purpleAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="cyanNeon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#7c5cff"/>
+    </linearGradient>
+    <radialGradient id="magentaGlow" cx="75%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#d946ef" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#d946ef" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violetGlow" cx="20%" cy="75%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="posterShadow" x="-12%" y="-10%" width="124%" height="124%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <pattern id="halftone" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.5" fill="#ffffff" opacity="0.1"/>
+    </pattern>
+  </defs>
+
+  <!-- Rich Purple Branding Background -->
+  <rect width="1280" height="800" fill="url(#bgSocial)"/>
+  <rect width="1280" height="800" fill="url(#magentaGlow)"/>
+  <rect width="1280" height="800" fill="url(#violetGlow)"/>
+  <rect x="420" y="0" width="860" height="800" fill="url(#halftone)"/>
+
+  <!-- Decorative Geometric Shapes -->
+  <polygon points="610,115 636,102 628,132" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.8"/>
+  <polygon points="646,136 668,125 660,150" fill="none" stroke="#00e5ff" stroke-width="2.5" opacity="0.85"/>
+
+  <!-- ==================== LEFT SIDE: VIRAL CAROUSEL HEADLINE POSTER ==================== -->
+  <g transform="translate(75, 78)" font-family="'Outfit', 'Inter', sans-serif">
+    <!-- Top Brand Pill -->
+    <rect x="0" y="0" width="250" height="36" rx="18" fill="#ffffff" opacity="0.12"/>
+    <text x="125" y="23" text-anchor="middle" fill="#f5d0fe" font-size="12.5" font-weight="700" letter-spacing="1.8">SOCIAL MEDIA BRANDING</text>
+
+    <!-- Big Number 5 Badge + Headline (Matching Reference Style) -->
+    <g transform="translate(0, 62)">
+      <rect x="0" y="0" width="136" height="175" rx="22" fill="url(#purpleAccent)" filter="url(#posterShadow)"/>
+      <text x="68" y="138" text-anchor="middle" fill="#ffffff" font-size="136" font-weight="900">5</text>
+
+      <text x="158" y="72" fill="#ffffff" font-size="68" font-weight="900" letter-spacing="1">TANDA</text>
+      <text x="158" y="152" fill="#ffffff" font-size="68" font-weight="900" letter-spacing="1">BISNISMU</text>
+    </g>
+
+    <!-- Highlighted Ribbon Box -->
+    <g transform="translate(0, 258)">
+      <rect x="0" y="0" width="540" height="86" rx="14" fill="url(#purpleAccent)" filter="url(#posterShadow)"/>
+      <text x="270" y="61" text-anchor="middle" fill="#ffffff" font-size="56" font-weight="900" letter-spacing="1.5">BUTUH SISTEM</text>
+    </g>
+
+    <!-- Subheadline Copywriting -->
+    <g transform="translate(6, 378)" font-family="'Inter', sans-serif">
+      <text x="0" y="0" fill="#f3e8ff" font-size="22" font-weight="500">Kalau beberapa hal ini sering terjadi,</text>
+      <text x="0" y="32" fill="#f3e8ff" font-size="22" font-weight="500">mungkin bisnis kamu sudah</text>
+      <text x="0" y="64" fill="#ffffff" font-size="22" font-weight="700">waktunya lebih <tspan fill="#e879f9" font-weight="800">rapi &amp; terukur.</tspan></text>
+    </g>
+
+    <!-- Checklist / Pain Points -->
+    <g transform="translate(6, 476)" font-family="'Inter', sans-serif">
+      <rect x="0" y="0" width="64" height="64" rx="16" fill="#9333ea" stroke="#d8b4fe" stroke-width="2"/>
+      <circle cx="32" cy="32" r="18" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+      <polyline points="32,21 32,32 40,37" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="84" y="27" fill="#ffffff" font-size="20" font-weight="700">Sering buang waktu</text>
+      <text x="84" y="53" fill="#d8b4fe" font-size="18">untuk hal operasional yang berulang</text>
+
+      <g transform="translate(0, 86)">
+        <rect x="0" y="0" width="64" height="64" rx="16" fill="#9333ea" stroke="#d8b4fe" stroke-width="2"/>
+        <rect x="20" y="16" width="24" height="32" rx="4" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+        <line x1="25" y1="25" x2="39" y2="25" stroke="#ffffff" stroke-width="2.5"/>
+        <line x1="25" y1="33" x2="35" y2="33" stroke="#ffffff" stroke-width="2.5"/>
+        <text x="84" y="27" fill="#ffffff" font-size="20" font-weight="700">Data tercecer dan</text>
+        <text x="84" y="53" fill="#d8b4fe" font-size="18">konten sosmed belum terjadwal konsisten</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT SIDE: INSTAGRAM CAROUSEL & INSIGHTS SHOWCASE ==================== -->
+  <g transform="translate(685, 76)" filter="url(#posterShadow)" font-family="'Inter', sans-serif">
+    <!-- Main Instagram Post Frame -->
+    <rect x="0" y="0" width="520" height="648" rx="28" fill="#180b30" stroke="#a855f7" stroke-width="2.5"/>
+
+    <!-- IG Post Header -->
+    <circle cx="44" cy="44" r="18" fill="url(#purpleAccent)"/>
+    <text x="44" y="49" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="800">YW</text>
+    <text x="74" y="40" fill="#ffffff" font-size="14" font-weight="700">yogaswaren.creative</text>
+    <text x="74" y="57" fill="#c084fc" font-size="11.5">Carousel Microblog · Content Pillar</text>
+    <rect x="404" y="28" width="90" height="30" rx="15" fill="#9333ea"/>
+    <text x="449" y="47" text-anchor="middle" fill="#ffffff" font-size="11.5" font-weight="700">Follow +</text>
+
+    <!-- Visual Content Card Inside Post -->
+    <g transform="translate(26, 82)">
+      <rect x="0" y="0" width="468" height="320" rx="20" fill="url(#purpleAccent)"/>
+      <circle cx="370" cy="180" r="135" fill="#ffffff" opacity="0.1"/>
+
+      <!-- Content Pillar Breakdown -->
+      <rect x="24" y="24" width="146" height="28" rx="14" fill="#180b30" opacity="0.55"/>
+      <text x="97" y="42" text-anchor="middle" fill="#00e5ff" font-size="11" font-weight="800">SLIDE 02 / 07</text>
+
+      <text x="24" y="90" fill="#ffffff" font-size="26" font-weight="800">Strategi Visual &amp;</text>
+      <text x="24" y="124" fill="#ffffff" font-size="26" font-weight="800">Copywriting Hook</text>
+      <text x="24" y="156" fill="#f3e8ff" font-size="13.5">Meningkatkan retensi audiens lewat desain</text>
+      <text x="24" y="176" fill="#f3e8ff" font-size="13.5">kontras tinggi &amp; pesan yang langsung kena.</text>
+
+      <!-- Mini Metric Cards inside slide -->
+      <g transform="translate(24, 204)">
+        <rect x="0" y="0" width="132" height="90" rx="14" fill="#180b30" opacity="0.78"/>
+        <text x="18" y="36" fill="#00e5ff" font-size="24" font-weight="800">+185%</text>
+        <text x="18" y="60" fill="#ffffff" font-size="12" font-weight="700">Organic Reach</text>
+        <text x="18" y="76" fill="#c084fc" font-size="10">Instagram &amp; TikTok</text>
+
+        <rect x="146" y="0" width="132" height="90" rx="14" fill="#180b30" opacity="0.78"/>
+        <text x="164" y="36" fill="#55efc4" font-size="24" font-weight="800">12.4K</text>
+        <text x="164" y="60" fill="#ffffff" font-size="12" font-weight="700">Saves &amp; Shares</text>
+        <text x="164" y="76" fill="#c084fc" font-size="10">High Retention</text>
+
+        <rect x="292" y="0" width="128" height="90" rx="14" fill="#180b30" opacity="0.78"/>
+        <text x="310" y="36" fill="#f472b6" font-size="24" font-weight="800">4.8%</text>
+        <text x="310" y="60" fill="#ffffff" font-size="12" font-weight="700">Engagement</text>
+        <text x="310" y="76" fill="#c084fc" font-size="10">Above Avg Benchmark</text>
+      </g>
+    </g>
+
+    <!-- Carousel Dots & Action Icons -->
+    <g transform="translate(26, 422)">
+      <text x="0" y="20" fill="#f472b6" font-size="20">♥</text>
+      <text x="26" y="19" fill="#ffffff" font-size="13.5" font-weight="700">2,840 Likes</text>
+      <circle cx="222" cy="14" r="4" fill="#ffffff" opacity="0.35"/>
+      <circle cx="236" cy="14" r="5" fill="#00e5ff"/>
+      <circle cx="250" cy="14" r="4" fill="#ffffff" opacity="0.35"/>
+      <circle cx="264" cy="14" r="4" fill="#ffffff" opacity="0.35"/>
+      <text x="468" y="19" text-anchor="end" fill="#00e5ff" font-size="13" font-weight="700">🔖 940 Saves</text>
+    </g>
+
+    <!-- Editorial Content Calendar Preview -->
+    <g transform="translate(26, 462)">
+      <rect x="0" y="0" width="468" height="158" rx="18" fill="#231145" stroke="#581c87" stroke-width="1.5"/>
+      <text x="22" y="32" fill="#ffffff" font-size="14" font-weight="800">📅  Content Pillar &amp; Editorial Campaign</text>
+      <text x="446" y="32" text-anchor="end" fill="#00e5ff" font-size="11.5" font-weight="700">Active Campaign</text>
+
+      <g transform="translate(22, 50)">
+        <rect x="0" y="0" width="134" height="86" rx="12" fill="#180b30" stroke="#7c3aed"/>
+        <text x="16" y="26" fill="#c084fc" font-size="10.5" font-weight="700">SENIN · REELS</text>
+        <text x="16" y="48" fill="#ffffff" font-size="12.5" font-weight="700">Hook Edukasi</text>
+        <text x="16" y="68" fill="#00e6a8" font-size="11" font-weight="700">● Published</text>
+
+        <rect x="145" y="0" width="134" height="86" rx="12" fill="#180b30" stroke="#00e5ff"/>
+        <text x="161" y="26" fill="#00e5ff" font-size="10.5" font-weight="700">RABU · CAROUSEL</text>
+        <text x="161" y="48" fill="#ffffff" font-size="12.5" font-weight="700">5 Tanda Bisnis</text>
+        <text x="161" y="68" fill="#00e6a8" font-size="11" font-weight="700">● Trending</text>
+
+        <rect x="290" y="0" width="134" height="86" rx="12" fill="#180b30" stroke="#ec4899"/>
+        <text x="306" y="26" fill="#f472b6" font-size="10.5" font-weight="700">JUMAT · STORY</text>
+        <text x="306" y="48" fill="#ffffff" font-size="12.5" font-weight="700">Q&amp;A + Testimoni</text>
+        <text x="306" y="68" fill="#fdcb6e" font-size="11" font-weight="700">● Scheduled</text>
+      </g>
+    </g>
+  </g>
+</svg>
+

@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogas Waren | Social Media Specialist & Full-Stack Developer</title>
+    <meta name="description"
+        content="Portfolio of Yogas Waren - Social Media Specialist, Creative Branding Strategist & Full-Stack Developer based in Medan, Indonesia.">
+    <link rel="stylesheet" href="./style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Language Toggle -->
+    <button class="lang-toggle" id="langToggle" title="Switch Language">
+        <i class='bx bx-globe'></i>
+        <span class="lang-flag flag flag-gb" id="langFlag"></span>
+        <span class="lang-text" id="langText">EN</span>
+    </button>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <a href="#home" class="logo">Yogas Waren<span>.</span></a>
+        <div class="header-actions">
+            <!-- Dual Language Toggle Pill in Navbar -->
+            <div class="lang-switch-box" id="headerLangSwitch" title="Switch Language / Ganti Bahasa">
+                <button type="button" class="lang-btn-opt active" data-lang-val="id" title="Bahasa Indonesia">
+                    <span class="flag flag-id"></span>
+                    <span class="lang-code">ID</span>
+                </button>
+                <button type="button" class="lang-btn-opt" data-lang-val="en" title="English">
+                    <span class="flag flag-gb"></span>
+                    <span class="lang-code">EN</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span data-en="Hi, I'm" data-id="Hai, Saya">Hi, I'm</span>
+                <span class="gradient-text">Yogas Waren</span>
+            </h1>
+            <div class="hero-role" hidden style="display:none;">
+
+
+            </div>
+            <p class="hero-desc"
+                data-en="Social Media Specialist, Creative Branding Strategist, Full-Stack &amp; Frontend Developer, and Informatics Engineering student at Universitas Prima Indonesia. Dedicated to crafting engaging content, elevating brand visibility, driving audience growth through compelling visual storytelling, and integrating modern digital tools."
+                data-id="Spesialis Media Sosial, Strategi Branding Kreatif, Full-Stack &amp; Frontend Developer, serta Mahasiswa Teknik Informatika di Universitas Prima Indonesia. Berdedikasi memproduksi konten yang menarik, meningkatkan visibilitas merek, membangun interaksi audiens lewat visual storytelling yang memikat, dan mengintegrasikan perangkat digital modern.">
+                Social Media Specialist, Creative Branding Strategist, Full-Stack &amp; Frontend Developer, and
+                Informatics Engineering student at Universitas
+                Prima Indonesia. Dedicated to crafting engaging content, elevating brand visibility, driving audience
+                growth through compelling visual storytelling, and integrating modern digital tools.
+            </p>
+            <div class="hero-actions">
+                <a href="https://wa.me/6287753125051" target="_blank" rel="noopener" class="btn btn-primary">
+                    <i class='bx bx-envelope'></i>
+                    <span data-en="Get in Touch" data-id="Hubungi Saya">Get in Touch</span>
+                </a>
+                <a href="./CV_Yogas_Waren.pdf" target="_blank" rel="noopener" class="btn btn-outline" id="viewCvBtn">
+                    <i class='bx bx-file'></i>
+                    <span data-en="View CV" data-id="Lihat CV">View CV</span>
+                </a>
+            </div>
+            <div class="hero-socials">
+                <a href="mailto:yogaswrn11@gmail.com" title="Email" aria-label="Email"><i
+                        class='bx bx-envelope'></i></a>
+                <a href="https://wa.me/6287753125051" target="_blank" title="WhatsApp" aria-label="WhatsApp"><i
+                        class='bx bxl-whatsapp'></i></a>
+                <a href="https://linkedin.com/in/yogaswaren" target="_blank" title="LinkedIn" aria-label="LinkedIn"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="tel:+6287753125051" title="Phone" aria-label="Phone"><i class='bx bx-phone'></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-glow"></div>
+            <div class="image-frame">
+                <img src="./profile-yogas.jpg" alt="Yogas Waren - Social Media & Branding Specialist" id="heroImg">
+            </div>
+            <div class="floating-card card-1">
+                <i class='bx bxl-instagram-alt'></i>
+                <span data-en="Social & Branding" data-id="Sosmed & Branding">Sosmed & Branding</span>
+            </div>
+            <div class="floating-card card-2">
+                <i class='bx bx-palette'></i>
+                <span data-en="Brand Strategy" data-id="Strategi Branding">Strategi Branding</span>
+            </div>
+            <div class="floating-card card-3">
+                <i class='bx bx-badge-check'></i>
+                <span data-en="BNSP Certified" data-id="Tersertifikasi BNSP">Tersertifikasi BNSP</span>
+            </div>
+            <div class="floating-card card-4">
+                <i class='bx bx-code-alt'></i>
+                <span data-en="Web & Tech" data-id="Web & Teknologi">Web & Teknologi</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-header">
+            <span class="section-tag" data-en="About Me" data-id="Tentang Saya">About Me</span>
+            <h2 class="section-title" data-en="Know Me Better" data-id="Kenali Saya Lebih Dekat">Know Me Better</h2>
+        </div>
+        <div class="profile-card glass-card">
+            <div class="profile-banner"></div>
+            <div class="profile-body">
+                <div class="profile-avatar">
+                    <img src="./profile-yogas.jpg" alt="Yogas Waren - Profile Photo">
+                    <span class="avatar-status" title="Available"></span>
+                </div>
+                <div class="profile-id">
+                    <h3 class="profile-name">Yogas Waren</h3>
+                    <p class="profile-role"
+                        data-en="Social Media &amp; Creative Branding Specialist · Full-Stack &amp; Frontend Developer"
+                        data-id="Spesialis Media Sosial &amp; Creative Branding · Full-Stack &amp; Frontend Developer">
+                        Social Media &amp; Creative Branding Specialist · Full-Stack &amp; Frontend Developer</p>
+
+                    <div class="profile-loc"><i class='bx bx-map'></i> <span>Medan, Indonesia</span></div>
+                </div>
+                <div class="profile-actions">
+                    <div class="profile-socials">
+                        <a href="mailto:yogaswrn11@gmail.com" title="Email" aria-label="Email"><i
+                                class='bx bx-envelope'></i></a>
+                        <a href="https://wa.me/6287753125051" target="_blank" title="WhatsApp" aria-label="WhatsApp"><i
+                                class='bx bxl-whatsapp'></i></a>
+                        <a href="https://linkedin.com/in/yogaswaren" target="_blank" title="LinkedIn"
+                            aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                        <a href="tel:+6287753125051" title="Phone" aria-label="Phone"><i class='bx bx-phone'></i></a>
+                    </div>
+                    <a href="https://wa.me/6287753125051" target="_blank" rel="noopener" class="btn btn-primary">
+                        <i class='bx bx-send'></i>
+                        <span data-en="Get in Touch" data-id="Hubungi Saya">Get in Touch</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-grid about-grid-single">
+            <div class="about-info">
+                <div class="about-open">
+                    <i class='bx bx-target-lock'></i>
+                    <p data-en="Open to opportunities: if your company is looking for a Social Media, Branding &amp; Design talent, I'm ready to help grow your brand presence, from content strategy to visual design."
+                        data-id="Terbuka untuk peluang: jika perusahaan Anda sedang mencari talenta Sosial Media, Branding &amp; Desain, saya siap membantu membangun kehadiran merek, dari strategi konten hingga desain visual.">
+                        Open to opportunities: if your company is looking for a Social Media, Branding &amp; Design
+                        talent,
+                        I'm ready to help grow your brand presence, from content strategy to visual design.
+                    </p>
+                </div>
+
+                <!-- Focus Tag Pills -->
+                <div class="focus-tags-title" data-en="Core Focus & Expertise" data-id="Fokus & Keahlian Utama">Core
+                    Focus & Expertise</div>
+                <div class="focus-pills">
+                    <span class="focus-pill"><i class='bx bxl-instagram'></i> <span data-en="Social Media Strategy"
+                            data-id="Strategi Media Sosial">Social Media Strategy</span></span>
+                    <span class="focus-pill"><i class='bx bx-crown'></i> <span data-en="Brand Identity & Positioning"
+                            data-id="Identitas & Posisi Merek">Brand Identity & Positioning</span></span>
+                    <span class="focus-pill"><i class='bx bx-video'></i> <span data-en="Video Editing (Filmora)"
+                            data-id="Editing Video (Filmora)">Video Editing (Filmora)</span></span>
+                    <span class="focus-pill"><i class='bx bx-broadcast'></i> <span data-en="Live Broadcast (OBS)"
+                            data-id="Siaran Langsung (OBS)">Live Broadcast (OBS)</span></span>
+                    <span class="focus-pill"><i class='bx bx-check-shield'></i> <span data-en="BNSP Customer Feedback"
+                            data-id="Pengelolaan Umpan Balik BNSP">BNSP Customer Feedback</span></span>
+                    <span class="focus-pill"><i class='bx bx-edit-alt'></i> <span data-en="Creative Copywriting"
+                            data-id="Copywriting Kreatif">Creative Copywriting</span></span>
+                    <span class="focus-pill"><i class='bx bx-code-block'></i> <span data-en="Full-Stack Web Development"
+                            data-id="Pengembangan Web Full-Stack">Full-Stack Web Development</span></span>
+                    <span class="focus-pill"><i class='bx bx-qr'></i> <span data-en="QR Systems & Microsites"
+                            data-id="Sistem QR & Microsite">QR Systems & Microsites</span></span>
+                    <span class="focus-pill"><i class='bx bx-slideshow'></i> <span data-en="Gamma App Presentations"
+                            data-id="Presentasi Interaktif (Gamma)">Gamma App Presentations</span></span>
+                    <span class="focus-pill"><i class='bx bx-line-chart'></i> <span data-en="Audience Analytics"
+                            data-id="Analisis Audiens & Metrik">Audience Analytics</span></span>
+                    <span class="focus-pill"><i class='bx bx-palette'></i> <span data-en="Graphic &amp; Visual Design"
+                            data-id="Desain Grafis &amp; Visual">Graphic &amp; Visual Design</span></span>
+                    <span class="focus-pill"><i class='bx bx-images'></i> <span data-en="Reels &amp; Carousel Content"
+                            data-id="Konten Reels &amp; Carousel">Reels &amp; Carousel Content</span></span>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="5">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label" data-en="Digital Projects" data-id="Proyek Digital">Digital
+                            Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="4">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label" data-en="Certifications" data-id="Sertifikasi">Certifications</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="2">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label" data-en="Years Experience" data-id="Tahun Pengalaman">Years
+                            Experience</span>
+                    </div>
+                </div>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <i class='bx bx-map'></i>
+                        <span>Medan, Sumatera Utara, Indonesia</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class='bx bx-envelope'></i>
+                        <a href="mailto:yogaswrn11@gmail.com">yogaswrn11@gmail.com</a>
+                    </div>
+                    <div class="detail-item">
+                        <i class='bx bx-phone'></i>
+                        <a href="https://wa.me/6287753125051">0877 5312 5051</a>
+                    </div>
+                    <div class="detail-item">
+                        <i class='bx bxs-graduation'></i>
+                        <span>Universitas Prima Indonesia (2022 - 2026)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qualifications Section -->
+    <section class="qualifications" id="qualifications">
+        <div class="section-header">
+            <span class="section-tag" data-en="Qualifications" data-id="Kualifikasi">Qualifications</span>
+            <h2 class="section-title" data-en="Social Media & Branding Qualifications"
+                data-id="Kualifikasi Sosmed & Branding">Social Media & Branding Qualifications</h2>
+            <p style="max-width: 65rem; margin: 1.5rem auto 0; font-size: 1.5rem; color: var(--text-secondary);"
+                data-en="Comprehensive competencies in social media management, brand identity development, multimedia production, and audience engagement."
+                data-id="Kompetensi komprehensif dalam pengelolaan media sosial, pengembangan identitas merek, produksi multimedia, dan komunikasi audiens.">
+                Comprehensive competencies in social media management, brand identity development, multimedia
+                production, and audience engagement.
+            </p>
+        </div>
+        <div class="qualifications-grid">
+            <div class="qualification-card glass-card">
+                <div class="qual-icon-wrapper">
+                    <i class='bx bxl-instagram-alt'></i>
+                </div>
+                <h3 data-en="Social Media Strategy & Content Management"
+                    data-id="Strategi & Manajemen Konten Media Sosial">Social Media Strategy & Content Management</h3>
+                <p data-en="Adept at planning, creating, and scheduling viral and informational content across Instagram, TikTok, LinkedIn, and YouTube. Experienced in building content pillars, engaging Reels, and carousel designs."
+                    data-id="Mampu merancang, memproduksi, dan menjadwalkan konten viral serta informatif di Instagram, TikTok, LinkedIn, dan YouTube. Terampil menyusun content pillar, Reels interaktif, dan microblog carousel.">
+                    Adept at planning, creating, and scheduling viral and informational content across Instagram,
+                    TikTok, LinkedIn, and YouTube. Experienced in building content pillars, engaging Reels, and carousel
+                    designs.
+                </p>
+                <div class="qual-highlights">
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="Content pillar & editorial calendar design"
+                            data-id="Penyusunan content pillar & kalender editorial">Content pillar & editorial calendar
+                            design</span></div>
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="High-engagement short-form video hooks"
+                            data-id="Hook video pendek dengan retensi audiens tinggi">High-engagement short-form video
+                            hooks</span></div>
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="Audience growth & reach analytics"
+                            data-id="Analisis pertumbuhan audiens & jangkauan (reach)">Audience growth & reach
+                            analytics</span></div>
+                </div>
+            </div>
+
+            <div class="qualification-card glass-card">
+                <div class="qual-icon-wrapper">
+                    <i class='bx bx-crown'></i>
+                </div>
+                <h3 data-en="Brand Identity & Strategic Positioning"
+                    data-id="Penguatan Identitas Merek & Branding Strategis">Brand Identity & Strategic Positioning</h3>
+                <p data-en="Committed to championing brand excellence and prestige. Skilled in maintaining consistent visual identity, typography, corporate brand guidelines, and highlighting core values & service excellence."
+                    data-id="Berkomitmen mengangkat prestise dan reputasi merek. Terampil menjaga konsistensi identitas visual, tipografi, panduan merek, serta mengomunikasikan nilai keunggulan produk dan layanan.">
+                    Committed to championing brand excellence and prestige. Skilled in maintaining consistent visual
+                    identity, typography, corporate brand guidelines, and highlighting core values & service excellence.
+                </p>
+                <div class="qual-highlights">
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="Brand consistency across all channels"
+                            data-id="Konsistensi visual merek di semua kanal media">Brand consistency across all
+                            channels</span></div>
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="Developing corporate & visual guidelines"
+                            data-id="Penyusunan panduan visual & identitas merek">Developing corporate & visual
+                            guidelines</span></div>
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="Strategic storytelling & milestone campaigns"
+                            data-id="Storytelling strategis & kampanye pencapaian">Strategic storytelling & milestone
+                            campaigns</span></div>
+                </div>
+            </div>
+
+            <div class="qualification-card glass-card">
+                <div class="qual-icon-wrapper">
+                    <i class='bx bx-video-recording'></i>
+                </div>
+                <h3 data-en="Multimedia Production & Video Editing" data-id="Produksi Multimedia & Editing Video">
+                    Multimedia Production & Video Editing</h3>
+                <p data-en="Hands-on experience with video editing suites (Wondershare Filmora, CapCut), live streaming software (OBS Studio), interactive presentation platforms (Gamma.app), and visual design tools (Canva/Figma)."
+                    data-id="Pengalaman praktis menggunakan aplikasi editing video (Filmora, CapCut), software siaran langsung (OBS Studio), platform presentasi interaktif (Gamma.app), dan alat desain grafis (Canva/Figma).">
+                    Hands-on experience with video editing suites (Wondershare Filmora, CapCut), live streaming software
+                    (OBS Studio), interactive presentation platforms (Gamma.app), and visual design tools (Canva/Figma).
+                </p>
+                <div class="qual-highlights">
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="Fast & engaging video editing (Filmora/CapCut)"
+                            data-id="Editing video cepat & dinamis (Filmora/CapCut)">Fast & engaging video editing
+                            (Filmora/CapCut)</span></div>
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="OBS Studio setup for live stream events"
+                            data-id="Setup OBS Studio untuk live streaming acara">OBS Studio setup for live stream
+                            events</span></div>
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="Interactive media with Gamma.app & Google Sites"
+                            data-id="Media interaktif memakai Gamma.app & Google Sites">Interactive media with Gamma.app
+                            & Google Sites</span></div>
+                </div>
+            </div>
+
+            <div class="qualification-card glass-card">
+                <div class="qual-icon-wrapper">
+                    <i class='bx bx-badge-check'></i>
+                </div>
+                <h3 data-en="Customer Feedback & PR (BNSP Certified)"
+                    data-id="Manajemen Komunikasi & Umpan Balik (BNSP)">Customer Feedback & PR (BNSP Certified)</h3>
+                <p data-en="Officially certified by BNSP (2026) in Customer Feedback Management. Proven competency in professional communication, handling public inquiries/complaints politely, and elevating audience satisfaction."
+                    data-id="Tersertifikasi resmi oleh BNSP (2026) dalam Pengelolaan Umpan Balik Pelanggan. Kompeten dalam komunikasi profesional, menanggapi pertanyaan/keluhan publik secara santun, dan menjaga kepuasan audiens.">
+                    Officially certified by BNSP (2026) in Customer Feedback Management. Proven competency in
+                    professional communication, handling public inquiries/complaints politely, and elevating audience
+                    satisfaction.
+                </p>
+                <div class="qual-highlights">
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="National BNSP Competency Certification"
+                            data-id="Sertifikasi Kompetensi Nasional BNSP (Kompeten)">National BNSP Competency
+                            Certification</span></div>
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="Prompt & diplomatic DM/comment moderation"
+                            data-id="Moderasi pesan & komentar secara cepat dan diplomatis">Prompt & diplomatic
+                            DM/comment moderation</span></div>
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="Crisis communication & reputation protection"
+                            data-id="Komunikasi mitigasi komplain & perlindungan reputasi">Crisis communication &
+                            reputation protection</span></div>
+                </div>
+            </div>
+
+            <div class="qualification-card glass-card">
+                <div class="qual-icon-wrapper">
+                    <i class='bx bx-code-alt'></i>
+                </div>
+                <h3 data-en="Digital & Tech Marketing Edge" data-id="Kelebihan Integrasi Teknologi & Media Digital">
+                    Digital & Tech Marketing Edge</h3>
+                <p data-en="Unlike conventional social media officers, possesses a strong Computer Science foundation. Able to build promotional landing pages, dynamic QR codes for instant document/campaign access, and track digital campaign metrics."
+                    data-id="Berbeda dari admin sosmed konvensional, memiliki pondasi Teknik Informatika. Mampu membangun landing page promosi, QR generator instan untuk dokumen/kampanye, dan melacak analitik digital.">
+                    Unlike conventional social media officers, possesses a strong Computer Science foundation. Able to
+                    build promotional landing pages, dynamic QR codes for instant document/campaign access, and track
+                    digital campaign metrics.
+                </p>
+                <div class="qual-highlights">
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="Custom event microsites & promotional pages"
+                            data-id="Pembuatan landing page acara & formulir promosi">Custom event microsites &
+                            promotional pages</span></div>
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="QR Generator for instant documents & media"
+                            data-id="Sistem QR Generator untuk akses cepat dokumen & media">QR Generator for instant
+                            documents & media</span></div>
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="Google & Meta analytics data tracking"
+                            data-id="Pelacakan data analitik Google & Meta Ads">Google & Meta analytics data
+                            tracking</span></div>
+                </div>
+            </div>
+
+            <div class="qualification-card glass-card">
+                <div class="qual-icon-wrapper">
+                    <i class='bx bx-group'></i>
+                </div>
+                <h3 data-en="Audience Research & Community Engagement" data-id="Riset Audiens & Manajemen Komunitas">
+                    Audience Research & Community Engagement</h3>
+                <p data-en="Skilled in audience sentiment research, trend forecasting, and engaging diverse communities with authentic, relatable communication that drives high loyalty and retention."
+                    data-id="Terampil dalam riset sentimen audiens, analisis tren terkini, dan membangun interaksi komunitas secara otentik yang mendorong loyalitas dan retensi tinggi.">
+                    Skilled in audience sentiment research, trend forecasting, and engaging diverse communities with
+                    authentic, relatable communication that drives high loyalty and retention.
+                </p>
+                <div class="qual-highlights">
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="Demographic & sentiment trend analysis"
+                            data-id="Analisis tren demografi & sentimen audiens">Demographic & sentiment trend
+                            analysis</span></div>
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="Active community building & engagement"
+                            data-id="Pembangunan & aktivasi komunitas audiens">Active community building &
+                            engagement</span></div>
+                    <div class="qual-highlight-item"><i class='bx bx-check-circle'></i> <span
+                            data-en="Authentic voice that resonates with target audiences"
+                            data-id="Gaya komunikasi otentik yang relevan dengan target audiens">Authentic voice that
+                            resonates with target audiences</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="section-header">
+            <span class="section-tag" data-en="Education" data-id="Pendidikan">Education</span>
+            <h2 class="section-title" data-en="Academic Background" data-id="Latar Belakang Akademik">Academic
+                Background</h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <span class="timeline-date">2022 — 2026</span>
+                    <h3 data-en="Universitas Prima Indonesia" data-id="Universitas Prima Indonesia">Universitas Prima
+                        Indonesia</h3>
+                    <h4 data-en="S1 Informatics Engineering | Faculty of Technology and Computer Science"
+                        data-id="S1 Teknik Informatika | Fakultas Teknologi dan Ilmu Komputer">S1 Informatics
+                        Engineering | Faculty of Technology and Computer Science</h4>
+                    <ul>
+                        <li data-en="Actively participated in Superbridge Sprint with SmartBridge for practical competency development"
+                            data-id="Berpartisipasi aktif dalam program Superbridge Sprint bersama SmartBridge untuk pengembangan kompetensi praktis">
+                            Actively participated in Superbridge Sprint with SmartBridge for practical competency
+                            development</li>
+                        <li data-en="Member of The Fusion Code team in the prestigious Gemastik XVIII competition"
+                            data-id="Menjadi anggota tim The Fusion Code dalam kompetisi bergengsi Gemastik XVIII">
+                            Member of The Fusion Code team in the prestigious Gemastik XVIII competition</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <span class="timeline-date">2018 — 2021</span>
+                    <h3 data-en="SMA Pab 4 Sampali" data-id="Sekolah Menengah Atas Pab 4 Sampali">SMA Pab 4 Sampali</h3>
+                    <h4 data-en="High School" data-id="Sekolah Menengah Atas">High School</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section class="experience" id="experience">
+        <div class="section-header">
+            <span class="section-tag" data-en="Experience" data-id="Pengalaman">Experience</span>
+            <h2 class="section-title" data-en="Work Experience" data-id="Pengalaman Kerja">Work Experience</h2>
+        </div>
+        <div class="experience-grid">
+            <div class="exp-card glass-card">
+                <div class="exp-header">
+                    <div class="exp-icon"><i class='bx bx-group'></i></div>
+                    <div>
+                        <h3>BerTigaa</h3>
+                        <span class="exp-role" data-en="Team Member (Team of Three) · Freelance"
+                            data-id="Anggota Tim (Tim Bertiga) · Freelance">Team Member (Team of Three) ·
+                            Freelance</span>
+                    </div>
+                </div>
+                <ul class="exp-list">
+                    <li data-en="Built responsive web applications as a team of three using React.js, Next.js, Laravel, and modern frontend tools"
+                        data-id="Membangun aplikasi web responsif bersama tim bertiga menggunakan React.js, Next.js, Laravel, dan tools frontend modern">
+                        Built responsive web applications as a team of three using React.js, Next.js, Laravel, and
+                        modern frontend tools</li>
+                    <li data-en="Developed backend features including CRUD modules, authentication, APIs, and database-driven systems"
+                        data-id="Mengembangkan fitur backend seperti modul CRUD, autentikasi, API, dan sistem berbasis database">
+                        Developed backend features including CRUD modules, authentication, APIs, and database-driven
+                        systems</li>
+                    <li data-en="Translated client requirements into functional, maintainable, and user-friendly web solutions"
+                        data-id="Menerjemahkan kebutuhan klien menjadi solusi web yang fungsional, mudah dirawat, dan ramah pengguna">
+                        Translated client requirements into functional, maintainable, and user-friendly web solutions
+                    </li>
+                </ul>
+            </div>
+
+            <div class="exp-card glass-card">
+                <div class="exp-header">
+                    <div class="exp-icon"><i class='bx bx-plus-medical'></i></div>
+                    <div>
+                        <h3 data-en="RSUD Dr. Pirngadi Kota Medan" data-id="RSUD Dr. Pirngadi Kota Medan">RSUD Dr.
+                            Pirngadi Kota Medan</h3>
+                        <span class="exp-role" data-en="Web Developer &amp; IT Support · Internship"
+                            data-id="Web Developer &amp; IT Support · Magang">Web Developer &amp; IT Support ·
+                            Internship</span>
+                    </div>
+                </div>
+                <ul class="exp-list">
+                    <li data-en="Developed a company profile website to improve the hospital's digital presence and accessibility"
+                        data-id="Mengembangkan website company profile untuk meningkatkan kehadiran digital dan aksesibilitas rumah sakit">
+                        Developed a company profile website to improve the hospital's digital presence and accessibility
+                    </li>
+                    <li data-en="Built a backend system for an attendance website using modern web technologies"
+                        data-id="Membangun sistem backend untuk website absensi menggunakan teknologi web modern">
+                        Built a backend system for an attendance website using modern web technologies</li>
+                    <li data-en="Assisted with hardware setup, driver installation, printer configuration, and basic IT maintenance"
+                        data-id="Membantu pemasangan perangkat keras, instalasi driver, konfigurasi printer, dan pemeliharaan IT dasar">
+                        Assisted with hardware setup, driver installation, printer configuration, and basic IT
+                        maintenance</li>
+                    <li data-en="Supported administrative tasks including document formatting, data entry, and presentation preparation"
+                        data-id="Mendukung tugas administrasi seperti pemformatan dokumen, input data, dan penyusunan presentasi">
+                        Supported administrative tasks including document formatting, data entry, and presentation
+                        preparation</li>
+                </ul>
+            </div>
+
+            <div class="exp-card glass-card">
+                <div class="exp-header">
+                    <div class="exp-icon"><i class='bx bx-code-block'></i></div>
+                    <div>
+                        <h3 data-en="Custom Website Services" data-id="Jasa Layanan Website Custom">Custom Website
+                            Services</h3>
+                        <span class="exp-role" data-en="Founder & Full-Stack Developer"
+                            data-id="Founder & Full-Stack Developer">Founder & Full-Stack Developer</span>
+                    </div>
+                </div>
+                <ul class="exp-list">
+                    <li data-en="Developed and managed daily programming assignment solutions and website/mobile development services"
+                        data-id="Mengembangkan dan mengelola layanan harian berupa pemrograman serta pembuatan website berbasis web dan mobile">
+                        Developed and managed daily programming assignment solutions and website/mobile development
+                        services</li>
+                    <li data-en="Built a Free QR Generator app for processing instant document media efficiently"
+                        data-id="Membangun aplikasi QR Generator Gratis untuk memproses instan dokumen media secara efisien">
+                        Built a Free QR Generator app for processing instant document media efficiently</li>
+                    <li data-en="Developed and implemented a mobile POS system for Wimaka Bakery and Torkies using Odoo and KantoPro"
+                        data-id="Mengembangkan dan menerapkan aplikasi mobile serta sistem Point of Sales (POS) untuk Wimaka Bakery dan Torkies menggunakan Odoo dan KantoPro">
+                        Developed and implemented a mobile POS system for Wimaka Bakery and Torkies using Odoo and
+                        KantoPro</li>
+                </ul>
+            </div>
+
+            <div class="exp-card glass-card">
+                <div class="exp-header">
+                    <div class="exp-icon"><i class='bx bx-chalkboard'></i></div>
+                    <div>
+                        <h3 data-en="Computer & Technology Skills Tutor"
+                            data-id="Tutor Keterampilan Komputer & Teknologi">Computer & Technology Skills Tutor</h3>
+                        <span class="exp-role" data-en="Independent Tutor" data-id="Pengajar Independen">Independent
+                            Tutor</span>
+                    </div>
+                </div>
+                <ul class="exp-list">
+                    <li data-en="Designed practical learning modules with 95% Practical and 5% Theory approach for elementary and junior high students"
+                        data-id="Menyusun modul pembelajaran praktis dengan pendekatan 95% Praktik dan 5% Teori untuk siswa SD dan SMP">
+                        Designed practical learning modules with 95% Practical and 5% Theory approach for elementary and
+                        junior high students</li>
+                    <li data-en="Taught fundamental hardware and software skills, file management, to Command Prompt navigation"
+                        data-id="Mengajarkan dasar perangkat keras (hardware) dan perangkat lunak (software), manajemen berkas, hingga navigasi Command Prompt">
+                        Taught fundamental hardware and software skills, file management, to Command Prompt navigation
+                    </li>
+                    <li data-en="Managed digital classes and streamlined learning administration via Google Classroom"
+                        data-id="Mengelola kelas digital dan mengkoordinasikan administrasi materi pembelajaran melalui Google Classroom">
+                        Managed digital classes and streamlined learning administration via Google Classroom</li>
+                    <li data-en="Created interactive presentation materials using Gamma app and built educational landing pages with Google Sites"
+                        data-id="Membuat materi presentasi interaktif menggunakan Gamma app dan membangun landing page edukasi menggunakan Google Sites">
+                        Created interactive presentation materials using Gamma app and built educational landing pages
+                        with Google Sites</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-header">
+            <span class="section-tag" data-en="Projects" data-id="Proyek">Projects</span>
+            <h2 class="section-title" data-en="Featured Projects" data-id="Proyek Unggulan">Featured Projects</h2>
+        </div>
+        <div class="projects-showcase">
+            <!-- ===== PROJECT 1 =====
+                 Ganti gambar: taruh file di folder assets/projects/ lalu ubah atribut src di bawah.
+                 Ganti link: ubah href pada bagian project-links. -->
+            <article class="project-showcase">
+                <div class="project-media glass-card">
+                    <span class="project-badge" data-en="Web Application" data-id="Aplikasi Web">Web Application</span>
+                    <div class="project-image">
+                        <img src="./assets/projects/rental-tenda.svg" alt="Rental System - Mobile Website preview"
+                            loading="lazy">
+                    </div>
+                </div>
+                <div class="project-details">
+                    <h3 class="project-title" data-en="Rental System - Website Mobile"
+                        data-id="Sistem Rental Tenda – Website Mobile">Rental System - Website Mobile</h3>
+                    <p class="project-desc"
+                        data-en="Developed a web-based application optimized for mobile devices, featuring sign-in flow and equipment booking process. Built with Next.js and React for fast, dynamic interfaces with Tailwind CSS for modern, clean, and responsive UI across multiple screen sizes."
+                        data-id="Mengembangkan Minimum Viable Product aplikasi berbasis web yang dioptimalkan untuk perangkat mobile guna memudahkan penyewaan tenda dan alat perlengkapan lainnya. Menggunakan Next.js dan React untuk membangun antarmuka yang cepat dan dinamis, serta Tailwind CSS untuk tampilan user interface yang modern, bersih, dan responsif di berbagai ukuran layar smartphone.">
+                        Developed a web-based application optimized for mobile devices, featuring sign-in flow and
+                        equipment booking process. Built with Next.js and React for fast, dynamic interfaces with
+                        Tailwind CSS for modern, clean, and responsive UI across multiple screen sizes.
+                    </p>
+                    <div class="project-info">
+                        <h4 class="project-info-title" data-en="Project Info" data-id="Info Proyek">Project Info</h4>
+                        <div class="project-info-row">
+                            <span data-en="Year" data-id="Tahun">Year</span>
+                            <strong>2026</strong>
+                        </div>
+                        <div class="project-info-row">
+                            <span data-en="Role" data-id="Peran">Role</span>
+                            <strong>Full-Stack Developer</strong>
+                        </div>
+                        <div class="project-info-row">
+                            <span data-en="Type" data-id="Jenis">Type</span>
+                            <strong>Minimum Viable Product</strong>
+                        </div>
+                    </div>
+                    <div class="project-tags" hidden>
+                        <span>Next.js</span>
+                        <span>React</span>
+                        <span>Tailwind CSS</span>
+                        <span>Mobile-First</span>
+                    </div>
+                    <div class="project-links" hidden>
+                        <a href="#" target="_blank" rel="noopener" class="project-link">
+                            <span data-en="Live Demo" data-id="Lihat Demo">Live Demo</span>
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener" class="project-link">
+                            <span data-en="See on GitHub" data-id="Lihat di GitHub">See on GitHub</span>
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ===== PROJECT 3: UI/UX DESIGN ===== -->
+            <article class="project-showcase">
+                <div class="project-media glass-card">
+                    <span class="project-badge" data-en="UI/UX Design" data-id="Desain UI/UX">UI/UX Design</span>
+                    <div class="project-image">
+                        <img src="./assets/projects/uiux-design.svg" alt="UI/UX Design System & Mobile POS Prototype"
+                            loading="lazy">
+                    </div>
+                </div>
+                <div class="project-details">
+                    <h3 class="project-title" data-en="Mobile POS &amp; Analytics UI/UX Design"
+                        data-id="Desain UI/UX Aplikasi Mobile POS &amp; Analitik">Mobile POS &amp; Analytics UI/UX
+                        Design</h3>
+                    <p class="project-desc"
+                        data-en="Designed a modern, user-centric mobile Point of Sales (POS) and analytics interface with a structured design system, consistent typography, interactive user flows, and high-contrast visual hierarchy to streamline daily retail and bakery operations."
+                        data-id="Merancang antarmuka pengguna (UI/UX) aplikasi Point of Sales (POS) dan dashboard analitik mobile yang modern, dilengkapi design system terstruktur, alur transaksi pengguna yang intuitif, serta hierarki visual kontras tinggi untuk mempermudah operasional kasir dan pemantauan penjualan harian.">
+                        Designed a modern, user-centric mobile Point of Sales (POS) and analytics interface with a
+                        structured design system, consistent typography, interactive user flows, and high-contrast
+                        visual hierarchy to streamline daily retail and bakery operations.
+                    </p>
+                    <div class="project-info">
+                        <h4 class="project-info-title" data-en="Project Info" data-id="Info Proyek">Project Info</h4>
+                        <div class="project-info-row">
+                            <span data-en="Year" data-id="Tahun">Year</span>
+                            <strong>2026</strong>
+                        </div>
+                        <div class="project-info-row">
+                            <span data-en="Role" data-id="Peran">Role</span>
+                            <strong data-en="UI/UX Designer" data-id="UI/UX Designer">UI/UX Designer</strong>
+                        </div>
+                        <div class="project-info-row">
+                            <span data-en="Type" data-id="Jenis">Type</span>
+                            <strong data-en="Design System &amp; App Prototype"
+                                data-id="Design System &amp; Prototipe Aplikasi">Design System &amp; App
+                                Prototype</strong>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ===== PROJECT 4: SOCIAL MEDIA PROJECT ===== -->
+            <article class="project-showcase">
+                <div class="project-media glass-card">
+                    <span class="project-badge" data-en="Social Media Project" data-id="Proyek Media Sosial">Social
+                        Media Project</span>
+                    <div class="project-image">
+                        <img src="./assets/projects/social-media.svg"
+                            alt="Social Media Management & Visual Branding Campaign" loading="lazy">
+                    </div>
+                </div>
+                <div class="project-details">
+                    <h3 class="project-title" data-en="Social Media Branding &amp; Content Strategy"
+                        data-id="Strategi Konten &amp; Visual Branding Media Sosial">Social Media Branding &amp; Content
+                        Strategy</h3>
+                    <p class="project-desc"
+                        data-en="Developed a comprehensive social media visual branding campaign featuring high-retention educational carousels, short-form Reels hooks, structured content pillars, and editorial scheduling to boost organic reach and audience engagement."
+                        data-id="Mengembangkan kampanye visual branding media sosial secara menyeluruh melalui desain microblog carousel edukatif, penulisan copywriting hook, penyusunan content pillar, serta penjadwalan kalender editorial guna meningkatkan jangkauan organik dan interaksi audiens.">
+                        Developed a comprehensive social media visual branding campaign featuring high-retention
+                        educational carousels, short-form Reels hooks, structured content pillars, and editorial
+                        scheduling to boost organic reach and audience engagement.
+                    </p>
+                    <div class="project-info">
+                        <h4 class="project-info-title" data-en="Project Info" data-id="Info Proyek">Project Info</h4>
+                        <div class="project-info-row">
+                            <span data-en="Year" data-id="Tahun">Year</span>
+                            <strong>2026</strong>
+                        </div>
+                        <div class="project-info-row">
+                            <span data-en="Role" data-id="Peran">Role</span>
+                            <strong data-en="Social Media &amp; Graphic Designer"
+                                data-id="Spesialis Sosmed &amp; Desainer Grafis">Social Media &amp; Graphic
+                                Designer</strong>
+                        </div>
+                        <div class="project-info-row">
+                            <span data-en="Type" data-id="Jenis">Type</span>
+                            <strong data-en="Visual Branding &amp; Content Campaign"
+                                data-id="Visual Branding &amp; Kampanye Konten">Visual Branding &amp; Content
+                                Campaign</strong>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ===== PROJECT 2 ===== -->
+            <article class="project-showcase">
+                <div class="project-media glass-card">
+                    <span class="project-badge" data-en="Information System" data-id="Sistem Informasi">Information
+                        System</span>
+                    <div class="project-image">
+                        <img src="./assets/projects/laundry-kita.svg" alt="Laundry Kita - Mobile Website preview"
+                            loading="lazy">
+                    </div>
+                </div>
+                <div class="project-details">
+                    <h3 class="project-title" data-en="Laundry Kita - Website Mobile"
+                        data-id="Sistem Laundry Kita – Website Mobile">Laundry Kita - Website Mobile</h3>
+                    <p class="project-desc"
+                        data-en="Developed a mobile-responsive web platform for a laundry information and service system. The project focuses on providing digital solutions to help users manage operational information, package options, and price estimates. Built with practical approach using Google Sites with customized web components."
+                        data-id="Mengembangkan platform web mobile-responsive untuk sistem informasi dan layanan Laundry Kita. Proyek ini berfokus pada penyediaan solusi digital yang memudahkan pengguna dalam mengelola informasi operasional, varian paket cuci, dan estimasi harga. Dikembangkan dengan pendekatan praktis menggunakan Google Sites serta kustomisasi struktur komponen web yang adaptif.">
+                        Developed a mobile-responsive web platform for a laundry information and service system. The
+                        project focuses on providing digital solutions to help users manage operational information,
+                        package options, and price estimates. Built with practical approach using Google Sites with
+                        customized web components.
+                    </p>
+                    <div class="project-info">
+                        <h4 class="project-info-title" data-en="Project Info" data-id="Info Proyek">Project Info</h4>
+                        <div class="project-info-row">
+                            <span data-en="Year" data-id="Tahun">Year</span>
+                            <strong>2026</strong>
+                        </div>
+                        <div class="project-info-row">
+                            <span data-en="Role" data-id="Peran">Role</span>
+                            <strong>Web Developer</strong>
+                        </div>
+                        <div class="project-info-row">
+                            <span data-en="Type" data-id="Jenis">Type</span>
+                            <strong data-en="Digital Information System" data-id="Sistem Informasi Digital">Digital
+                                Information System</strong>
+                        </div>
+                    </div>
+                    <div class="project-tags" hidden>
+                        <span>Google Sites</span>
+                        <span>Responsive</span>
+                        <span>UI/UX</span>
+                    </div>
+                    <div class="project-links" hidden>
+                        <a href="#" target="_blank" rel="noopener" class="project-link">
+                            <span data-en="Live Demo" data-id="Lihat Demo">Live Demo</span>
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-header">
+            <span class="section-tag" data-en="Skills" data-id="Keahlian">Skills</span>
+            <h2 class="section-title" data-en="Technical Skills" data-id="Keahlian Teknis">Technical Skills</h2>
+        </div>
+        <div class="skills-container">
+            <div class="skills-category">
+                <h3 class="skills-cat-title" data-en="Frontend Development" data-id="Pengembangan Frontend">Frontend
+                    Development</h3>
+                <div class="skills-tags">
+                    <div class="skill-tag"><i class='bx bxl-html5'></i> HTML5</div>
+                    <div class="skill-tag"><i class='bx bxl-css3'></i> CSS3</div>
+                    <div class="skill-tag"><i class='bx bxl-javascript'></i> JavaScript</div>
+                    <div class="skill-tag"><i class='bx bxl-react'></i> React</div>
+                    <div class="skill-tag"><i class='bx bxl-tailwind-css'></i> Tailwind CSS</div>
+                    <div class="skill-tag"><i class='bx bx-code-alt'></i> Next.js</div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3 class="skills-cat-title" data-en="Backend & Database" data-id="Backend & Database">Backend &
+                    Database</h3>
+                <div class="skills-tags">
+                    <div class="skill-tag"><i class='bx bxl-nodejs'></i> Node.js</div>
+                    <div class="skill-tag"><i class='bx bx-data'></i> MySQL</div>
+                    <div class="skill-tag"><i class='bx bx-server'></i> REST API</div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3 class="skills-cat-title" data-en="Mobile Development" data-id="Pengembangan Mobile">Mobile
+                    Development</h3>
+                <div class="skills-tags">
+                    <div class="skill-tag"><i class='bx bx-mobile-alt'></i> Mobile-First Design</div>
+                    <div class="skill-tag"><i class='bx bx-devices'></i> Responsive Web</div>
+                    <div class="skill-tag"><i class='bx bxl-play-store'></i> Android</div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3 class="skills-cat-title" data-en="Tools & Platforms" data-id="Alat & Platform">Tools & Platforms
+                </h3>
+                <div class="skills-tags">
+                    <div class="skill-tag"><i class='bx bxl-git'></i> Git</div>
+                    <div class="skill-tag"><i class='bx bx-cog'></i> Odoo</div>
+                    <div class="skill-tag"><i class='bx bx-store'></i> KantoPro</div>
+                    <div class="skill-tag"><i class='bx bxl-google'></i> Google Sites</div>
+                    <div class="skill-tag"><i class='bx bx-slideshow'></i> Gamma App</div>
+                    <div class="skill-tag"><i class='bx bxl-google'></i> Google Classroom</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificates" id="certificates">
+        <div class="section-header">
+            <span class="section-tag" data-en="Certificates" data-id="Sertifikat">Certificates</span>
+            <h2 class="section-title" data-en="Certifications & Achievements" data-id="Sertifikasi & Pencapaian">
+                Certifications & Achievements</h2>
+        </div>
+        <div class="cert-grid">
+            <div class="cert-card glass-card">
+                <div class="cert-badge"><i class='bx bx-award'></i></div>
+                <div class="cert-info">
+                    <h3 data-en="Customer Feedback Management Professional Certification (BNSP)"
+                        data-id="Pengelolaan Umpan Balik Pelanggan Sertifikasi Profesi (BNSP)">Customer Feedback
+                        Management Professional Certification (BNSP)</h3>
+                    <span class="cert-year">2026</span>
+                    <p data-en="Passed National Competency Certification (BNSP). Demonstrated competency in managing communication, resolving complaints, and improving customer satisfaction levels according to national industry standards."
+                        data-id="Lulus & Tersertifikasi Nasional (Kompeten). Dinyatakan kompeten dalam mengelola komunikasi, menyelesaikan keluhan, dan meningkatkan indeks kepuasan pelanggan sesuai standar industri nasional.">
+                        Passed National Competency Certification (BNSP). Demonstrated competency in managing
+                        communication, resolving complaints, and improving customer satisfaction levels according to
+                        national industry standards.
+                    </p>
+                </div>
+            </div>
+
+            <div class="cert-card glass-card">
+                <div class="cert-badge"><i class='bx bx-code-alt'></i></div>
+                <div class="cert-info">
+                    <h3 data-en="Web Development & Programming - Dicoding Indonesia"
+                        data-id="Program Pengembangan Web / Pemrograman Dicoding Indonesia">Web Development &
+                        Programming - Dicoding Indonesia</h3>
+                    <span class="cert-year">2024 — 2025</span>
+                    <p data-en="Passed Project-Based Classes. Successfully completed intensive training and passed evaluation for building web applications according to global industry standards."
+                        data-id="Lulus & Menyelesaikan Kelas Berbasis Proyek. Berhasil menyelesaikan pelatihan intensif dan lulus ujian evaluasi pembuatan aplikasi Web sesuai standar industri global.">
+                        Passed Project-Based Classes. Successfully completed intensive training and passed evaluation
+                        for building web applications according to global industry standards.
+                    </p>
+                </div>
+            </div>
+
+            <div class="cert-card glass-card">
+                <div class="cert-badge"><i class='bx bx-laptop'></i></div>
+                <div class="cert-info">
+                    <h3 data-en="Digital Competency & Training - Ministry of Communication and Digital (Komdigi)"
+                        data-id="Kompetensi & Pelatihan Digital Kementerian Komunikasi dan Digital (Komdigi)">Digital
+                        Competency & Training - Ministry of Communication and Digital (Komdigi)</h3>
+                    <span class="cert-year">2025</span>
+                    <p data-en="Attended Official Training Program. Actively participated and was declared passed in programs for digital capability improvement to support national digital transformation and technology resilience."
+                        data-id="Hadir Diprogram Pelatihan Resmi. Berpartisipasi aktif dan dinyatakan lulus dalam program peningkatan kapabilitas digital untuk mendukung transformasi dan ketahanan teknologi nasional.">
+                        Attended Official Training Program. Actively participated and was declared passed in programs
+                        for digital capability improvement to support national digital transformation and technology
+                        resilience.
+                    </p>
+                </div>
+            </div>
+
+            <div class="cert-card glass-card">
+                <div class="cert-badge"><i class='bx bx-briefcase'></i></div>
+                <div class="cert-info">
+                    <h3 data-en="Internship Completion Certificate - Bimbel Cosinus"
+                        data-id="Sertifikat Penyelesaian Magang Kerja Bimbel Cosinus">Internship Completion Certificate
+                        Bimbel Cosinus</h3>
+                    <span class="cert-year">2025</span>
+                    <p data-en="Completed Internship Program. Successfully completed the entire internship program, actively contributed to the classroom learning process, and managed daily class sessions."
+                        data-id="Menyelesaikan Program Magang. Berhasil menyelesaikan seluruh rangkaian program magang operasional/pengajaran, berkontribusi langsung dalam proses edukasi, serta manajemen kelas harian.">
+                        Completed Internship Program. Successfully completed the entire internship program, actively
+                        contributed to the classroom learning process, and managed daily class sessions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Viewer Modal -->
+    <div class="cv-modal" id="cvModal">
+        <div class="cv-modal-overlay" id="cvModalOverlay"></div>
+        <div class="cv-modal-content">
+            <div class="cv-modal-header">
+                <div class="cv-modal-title-box">
+                    <h3 data-en="Curriculum Vitae - Yogas Waren" data-id="Curriculum Vitae - Yogas Waren">Curriculum
+                        Vitae - Yogas Waren</h3>
+                    <div class="cv-lang-tabs">
+                        <button type="button" class="cv-tab-btn active" id="cvTabId" data-cv="id">
+                            <span class="flag flag-id"></span> <span data-en="Bahasa Indonesia (PDF)"
+                                data-id="Bahasa Indonesia (PDF)">Bahasa Indonesia (PDF)</span>
+                        </button>
+                        <button type="button" class="cv-tab-btn" id="cvTabEn" data-cv="en">
+                            <span class="flag flag-gb"></span> <span data-en="English Version"
+                                data-id="Versi Bahasa Inggris">English Version</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="cv-modal-actions">
+                    <a href="./CV_Yogas_Waren.pdf" target="_blank" class="cv-action-btn" id="cvOpenNewTab"
+                        title="Open PDF in new tab">
+                        <i class='bx bx-link-external'></i>
+                    </a>
+                    <button type="button" class="cv-close-btn" id="cvCloseBtn" title="Close Modal">
+                        <i class='bx bx-x'></i>
+                    </button>
+                </div>
+            </div>
+            <div class="cv-modal-body">
+                <iframe src="" id="cvIframe" title="CV Yogas Waren PDF"></iframe>
+                <div class="cv-en-view" id="cvEnView" style="display: none;">
+                    <div class="cv-en-container">
+                        <div class="cv-en-header">
+                            <h2>Yogas Waren</h2>
+                            <p class="cv-en-role">Social Media Specialist, Creative Branding Strategist & Full-Stack
+                                Developer</p>
+                            <div class="cv-en-contact">
+                                <span><i class='bx bx-map'></i> Medan, North Sumatra, Indonesia</span>
+                                <span><i class='bx bx-envelope'></i> yogaswrn11@gmail.com</span>
+                                <span><i class='bx bxl-whatsapp'></i> 0877 5312 5051</span>
+                                <span><i class='bx bxl-linkedin'></i> linkedin.com/in/yogaswaren</span>
+                            </div>
+                        </div>
+
+                        <div class="cv-en-section">
+                            <h3><i class='bx bx-user-check'></i> Professional Summary</h3>
+                            <p>Dynamic and results-driven Social Media Specialist, Creative Branding Strategist, and
+                                Informatics Engineering student at Universitas Prima Indonesia (UNPRI, 2022-2026).
+                                Certified in Customer Feedback Management by BNSP (2026). Adept in multi-channel social
+                                media growth (Instagram, TikTok, LinkedIn), brand identity creation, multimedia
+                                production (Wondershare Filmora, CapCut, OBS Studio), and technical web engineering.
+                                Combines creative storytelling with analytical rigor to drive brand prestige, high
+                                retention, and audience engagement.</p>
+                        </div>
+
+                        <div class="cv-en-section">
+                            <h3><i class='bx bx-briefcase'></i> Work Experience</h3>
+                            <div class="cv-en-item">
+                                <div class="cv-en-item-header">
+                                    <h4>Team Member</h4>
+                                    <span class="cv-en-date">Freelance</span>
+                                </div>
+                                <div class="cv-en-item-sub">BerTigaa (Team of Three)</div>
+                                <ul>
+                                    <li>Built responsive web applications with React.js, Next.js, and Laravel as part of
+                                        a three-person team.</li>
+                                    <li>Developed backend features including CRUD modules, authentication, and APIs.
+                                    </li>
+                                    <li>Translated client requirements into functional, maintainable web solutions.</li>
+                                </ul>
+                            </div>
+                            <div class="cv-en-item">
+                                <div class="cv-en-item-header">
+                                    <h4>Web Developer &amp; IT Support Intern</h4>
+                                    <span class="cv-en-date">Internship</span>
+                                </div>
+                                <div class="cv-en-item-sub">RSUD Dr. Pirngadi Kota Medan</div>
+                                <ul>
+                                    <li>Developed a company profile website to improve the hospital's digital presence.
+                                    </li>
+                                    <li>Built a backend system for an attendance website.</li>
+                                    <li>Assisted with hardware setup, driver installation, printer configuration, and
+                                        basic IT maintenance.</li>
+                                    <li>Supported administrative tasks: document formatting, data entry, and
+                                        presentations.</li>
+                                </ul>
+                            </div>
+                            <div class="cv-en-item">
+                                <div class="cv-en-item-header">
+                                    <h4>Founder & Full-Stack Developer</h4>
+                                    <span class="cv-en-date">2022 — Present</span>
+                                </div>
+                                <div class="cv-en-item-sub">Custom Website Services & Tech Solutions</div>
+                                <ul>
+                                    <li>Architected and managed daily programming assignment solutions and web/mobile
+                                        development services.</li>
+                                    <li>Built a Free QR Generator application for efficient processing and instant
+                                        access to digital documents and media assets.</li>
+                                    <li>Developed and implemented mobile-first POS systems for retail clients (Wimaka
+                                        Bakery, Torkies) utilizing Odoo and KantoPro.</li>
+                                </ul>
+                            </div>
+                            <div class="cv-en-item">
+                                <div class="cv-en-item-header">
+                                    <h4>Computer & Technology Skills Tutor</h4>
+                                    <span class="cv-en-date">2022 — 2024</span>
+                                </div>
+                                <div class="cv-en-item-sub">Independent Academic & Digital Educator</div>
+                                <ul>
+                                    <li>Created tailored learning modules with a 95% practical and 5% theory methodology
+                                        for elementary and middle school students.</li>
+                                    <li>Instructed core computer literacy, software navigation, file hierarchies, and
+                                        Command Prompt automation.</li>
+                                    <li>Coordinated digital classroom workflows and assignments using Google Classroom
+                                        and interactive Gamma.app decks.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="cv-en-section">
+                            <h3><i class='bx bx-award'></i> Certifications & Accreditations</h3>
+                            <div class="cv-en-grid-2">
+                                <div class="cv-en-badge-card">
+                                    <strong>Customer Feedback Management (BNSP Certified)</strong>
+                                    <span>Issued 2026 | National Competency Standard</span>
+                                    <p>Officially accredited in public communication, client satisfaction resolution,
+                                        and corporate reputation maintenance.</p>
+                                </div>
+                                <div class="cv-en-badge-card">
+                                    <strong>Web Development & Programming</strong>
+                                    <span>Dicoding Indonesia | 2024 — 2025</span>
+                                    <p>Project-based certification in modern responsive web architecture and web
+                                        standards.</p>
+                                </div>
+                                <div class="cv-en-badge-card">
+                                    <strong>Digital Competency Training</strong>
+                                    <span>Ministry of Communication & Digital (Komdigi) | 2025</span>
+                                    <p>National digital transformation and technology resilience accreditation.</p>
+                                </div>
+                                <div class="cv-en-badge-card">
+                                    <strong>Educational Internship Certification</strong>
+                                    <span>Bimbel Casino | 2025</span>
+                                    <p>Successful management of digital teaching modules and operational sessions.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cv-en-section">
+                            <h3><i class='bx bxs-graduation'></i> Education</h3>
+                            <div class="cv-en-item">
+                                <div class="cv-en-item-header">
+                                    <h4>Universitas Prima Indonesia (UNPRI)</h4>
+                                    <span class="cv-en-date">2022 — 2026 (Expected)</span>
+                                </div>
+                                <div class="cv-en-item-sub">Bachelor of Informatics Engineering — Faculty of Technology
+                                    & Computer Science</div>
+                                <p>Superbridge Sprint with SmartBridge participant; The Fusion Code team member in
+                                    Gemastik XVIII national competition.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <span class="section-tag" data-en="Contact" data-id="Kontak">Contact</span>
+            <h2 class="section-title" data-en="Let's Connect" data-id="Mari Terhubung">Let's Connect</h2>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h3 data-en="Get in touch" data-id="Hubungi saya">Get in touch</h3>
+                <p data-en="Have a project in mind, a social media & branding opportunity, or want to discuss collaboration? Feel free to reach out directly through any channel below."
+                    data-id="Punya proyek, peluang pengelolaan sosmed & branding, atau ingin berdiskusi? Jangan ragu untuk menghubungi langsung melalui kontak di bawah ini.">
+                    Have a project in mind, a social media & branding opportunity, or want to discuss collaboration?
+                    Feel free to reach out directly through any channel below.
+                </p>
+                <div class="contact-cards">
+                    <a href="mailto:yogaswrn11@gmail.com" class="contact-card glass-card">
+                        <i class='bx bx-envelope'></i>
+                        <div>
+                            <h4>Email</h4>
+                            <span>yogaswrn11@gmail.com</span>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/6287753125051" target="_blank" class="contact-card glass-card">
+                        <i class='bx bxl-whatsapp'></i>
+                        <div>
+                            <h4 data-en="WhatsApp" data-id="WhatsApp">WhatsApp</h4>
+                            <span>0877 5312 5051</span>
+                        </div>
+                    </a>
+                    <a href="tel:+6287753125051" class="contact-card glass-card">
+                        <i class='bx bx-phone'></i>
+                        <div>
+                            <h4 data-en="Phone" data-id="Telepon">Phone</h4>
+                            <span>0822 6740 1318</span>
+                        </div>
+                    </a>
+                    <a href="https://linkedin.com/in/yogaswaren" target="_blank" class="contact-card glass-card">
+                        <i class='bx bxl-linkedin'></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <span>linkedin.com/in/yogaswaren</span>
+                        </div>
+                    </a>
+                    <div class="contact-card glass-card">
+                        <i class='bx bx-map'></i>
+                        <div>
+                            <h4 data-en="Location" data-id="Lokasi">Location</h4>
+                            <span>Medan, Sumatera Utara, Indonesia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <form class="contact-form glass-card" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name" data-en="Full Name" data-id="Nama Lengkap">Full Name</label>
+                            <input type="text" id="name" data-en-placeholder="e.g. Yogas Waren"
+                                data-id-placeholder="Contoh: Yogas Waren" placeholder="e.g. Yogas Waren" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-en="Email Address" data-id="Alamat Email">Email Address</label>
+                            <input type="email" id="email" data-en-placeholder="e.g. yogaswrn11@gmail.com"
+                                data-id-placeholder="Contoh: yogaswrn11@gmail.com"
+                                placeholder="e.g. yogaswrn11@gmail.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" data-en="Subject" data-id="Subjek">Subject</label>
+                        <input type="text" id="subject" data-en-placeholder="Social Media & Branding Inquiry"
+                            data-id-placeholder="Peluang Sosmed & Branding / Pertanyaan"
+                            placeholder="Social Media & Branding Inquiry" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-en="Message" data-id="Pesan">Message</label>
+                        <textarea id="message" rows="5"
+                            data-en-placeholder="Write your message or project brief here..."
+                            data-id-placeholder="Tuliskan pesan atau detail kebutuhan proyek Anda di sini..."
+                            placeholder="Write your message or project brief here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class='bx bx-send'></i>
+                        <span data-en="Send Message" data-id="Kirim Pesan">Send Message</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="#home" class="footer-logo">Yogas<span>.</span></a>
+                <p data-en="Social Media Specialist, Creative Branding Strategist, Full-Stack &amp; Frontend Developer, and Informatics Engineering student at Universitas Prima Indonesia."
+                    data-id="Spesialis Media Sosial, Strategi Branding Kreatif, Full-Stack &amp; Frontend Developer, serta Mahasiswa Teknik Informatika di Universitas Prima Indonesia.">
+                    Social Media Specialist, Creative Branding Strategist, Full-Stack &amp; Frontend Developer, and
+                    Informatics Engineering student at
+                    Universitas Prima Indonesia.</p>
+            </div>
+            <div class="footer-links">
+                <h4 data-en="Quick Links" data-id="Tautan Cepat">Quick Links</h4>
+                <a href="#about" data-en="About" data-id="Tentang">About</a>
+                <a href="#qualifications" data-en="Qualifications" data-id="Kualifikasi">Qualifications</a>
+                <a href="#experience" data-en="Experience" data-id="Pengalaman">Experience</a>
+                <a href="#projects" data-en="Projects" data-id="Proyek">Projects</a>
+                <a href="#contact" data-en="Contact" data-id="Kontak">Contact</a>
+            </div>
+            <div class="footer-social">
+                <h4 data-en="Social & Contact" data-id="Sosial & Kontak">Social & Contact</h4>
+                <div class="footer-social-icons">
+                    <a href="mailto:yogaswrn11@gmail.com" aria-label="Email"><i class='bx bx-envelope'></i></a>
+                    <a href="https://wa.me/6287753125051" target="_blank" aria-label="WhatsApp"><i
+                            class='bx bxl-whatsapp'></i></a>
+                    <a href="https://linkedin.com/in/yogaswaren" target="_blank" aria-label="LinkedIn"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="tel:+6287753125051" aria-label="Phone"><i class='bx bx-phone'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Yogas Waren. <span data-en="All Rights Reserved." data-id="Semua Hak Dilindungi.">All Rights
+                    Reserved.</span></p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class='bx bx-up-arrow-alt'></i>
+    </a>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
